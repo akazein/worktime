@@ -5,7 +5,7 @@ import NavButton from './NavButton'
 const Header = () => {
     return (
         <NavigationMenu className='w-screen'>
-            <NavigationMenuList>
+            <NavigationMenuList className='space-x-4'>
                 <NavButton link=''>Home</NavButton>
                 <NavButton link='Stats'>Stats</NavButton>
                 <NavButton link='Settings'>Settings</NavButton>

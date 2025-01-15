@@ -14,7 +14,7 @@ interface NavButtonProps {
 
 const NavButton: React.FC<NavButtonProps> = ({ link, children }) => {
     return (
-        <NavigationMenuItem className='p-3'>
+        <NavigationMenuItem>
             <Link to={link}>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                     {children}

@@ -4,6 +4,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Home from "./pages/Home";
 import Stats from "./pages/Stats";
+import Settings from "./pages/Settings";
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/stats" element={<Stats />} />
-        <Route path="/settings" element={<Stats />} />
+        <Route path="/settings" element={<Settings />} />
       </Routes>
     </BrowserRouter>
   );
